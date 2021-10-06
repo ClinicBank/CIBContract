@@ -1,0 +1,22 @@
+{
+  "name": "Gistcoin",
+  "version": "1.0.0",
+  "description": "GIST Coin",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {},
+  "author": {
+    "name": "Josiah Yahaya"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "@truffle/contract": "^4.3.25",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "web3": "^1.4.0"
+  }
+}

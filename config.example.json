@@ -1,0 +1,4 @@
+{
+    "mnemonic": "Seed phrase goes here...",
+    "network_url": "https://ropsten.infura.io/{infura_key_goes_here}"
+}
