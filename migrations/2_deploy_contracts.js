@@ -1,6 +1,6 @@
-const Gistcoin = artifacts.require("Gistcoin");
-const totalSupply = '500000000000000000000000000' // 500000000 GIST in Wei
+const ClinicBank = artifacts.require("ClinicBank");
+const totalSupply = '1000000000000000000000000' // 1,000,000 CIB in Wei
 
 module.exports = async (deployer) => {
-    await deployer.deploy(Gistcoin, totalSupply)
+    await deployer.deploy(ClinicBank, totalSupply)
 };

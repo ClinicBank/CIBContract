@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-contract Gistcoin {
+contract ClinicBank {
     uint256 public totalSupply;
-    string public name = 'Gistcoin';
-    string public symbol = 'GIST';
-    string public standard = 'GIST v1.0';
+    string public name = 'ClinicBank';
+    string public symbol = 'CIB';
+    string public standard = 'CIB v1.0';
     uint8 public decimals = 18;
 
     event Transfer(
